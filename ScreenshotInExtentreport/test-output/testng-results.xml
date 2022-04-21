@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-21T20:11:50 IST" name="Default suite" finished-at="2022-04-21T20:12:15 IST" duration-ms="25542">
+    <groups>
+    </groups>
+    <test started-at="2022-04-21T20:11:50 IST" name="Default test" finished-at="2022-04-21T20:12:15 IST" duration-ms="25542">
+      <class name="ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:11:50 IST" name="setExtent" finished-at="2022-04-21T20:11:50 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="chromeRun()[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:11:50 IST" name="chromeRun" finished-at="2022-04-21T20:11:53 IST" duration-ms="3273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeRun -->
+        <test-method signature="googleTitleTest()[pri:1, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:11:53 IST" name="googleTitleTest" finished-at="2022-04-21T20:11:53 IST" duration-ms="16" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[title not matched expected [Google123] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: title not matched expected [Google123] but found [Google]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport.googleTitleTest(ScreenshotInExtentReport.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:11:53 IST" name="tearDown" finished-at="2022-04-21T20:11:54 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=googleTitleTest status=FAILURE method=ScreenshotInExtentReport.googleTitleTest()[pri:1, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="chromeRun()[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:11:54 IST" name="chromeRun" finished-at="2022-04-21T20:11:57 IST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeRun -->
+        <test-method signature="gmailButtonTest()[pri:2, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:11:57 IST" name="gmailButtonTest" finished-at="2022-04-21T20:12:00 IST" duration-ms="2424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailButtonTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:12:00 IST" name="tearDown" finished-at="2022-04-21T20:12:00 IST" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailButtonTest status=SUCCESS method=ScreenshotInExtentReport.gmailButtonTest()[pri:2, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="chromeRun()[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:12:00 IST" name="chromeRun" finished-at="2022-04-21T20:12:02 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeRun -->
+        <test-method signature="facebookUrl()[pri:3, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:12:02 IST" name="facebookUrl" finished-at="2022-04-21T20:12:11 IST" duration-ms="8566" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Facebook - Log In or Sign Up')]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-DFDTRN2Q', ip: '192.168.129.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [735ecda6e0e1c69bd6358f9cb977b904, findElement {using=xpath, value=//h3[contains(text(),'Facebook - Log In or Sign Up')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\SHASHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51367/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 735ecda6e0e1c69bd6358f9cb977b904]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'Facebook - Log In or Sign Up')]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-DFDTRN2Q', ip: '192.168.129.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [735ecda6e0e1c69bd6358f9cb977b904, findElement {using=xpath, value=//h3[contains(text(),'Facebook - Log In or Sign Up')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\SHASHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51367/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 735ecda6e0e1c69bd6358f9cb977b904
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport.facebookUrl(ScreenshotInExtentReport.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookUrl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:12:11 IST" name="tearDown" finished-at="2022-04-21T20:12:11 IST" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebookUrl status=FAILURE method=ScreenshotInExtentReport.facebookUrl()[pri:3, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="chromeRun()[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:12:11 IST" name="chromeRun" finished-at="2022-04-21T20:12:13 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeRun -->
+        <test-method signature="enterUsername()[pri:4, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:12:13 IST" name="enterUsername" finished-at="2022-04-21T20:12:15 IST" duration-ms="1411" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped
+at ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport.enterUsername(ScreenshotInExtentReport.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:12:15 IST" name="tearDown" finished-at="2022-04-21T20:12:15 IST" duration-ms="225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterUsername status=SKIP method=ScreenshotInExtentReport.enterUsername()[pri:4, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport@316bcf94]" started-at="2022-04-21T20:12:15 IST" name="endReport" finished-at="2022-04-21T20:12:15 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- ScreenshotInExtentreport.ScreenshotInExtentreport.ScreenshotInExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
